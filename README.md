@@ -1,26 +1,26 @@
-# Build Boilerplate: Static/ES6/SASS
+# Test Landing Page 
 
-A boilerplate for building a static app/website with ES6 and SASS.
+I Used a boilerplate in order to be able to a SCSS & ES6 compiler  building a static app/website with ES6 and SASS.
 
 This project was created to enable the easy, setup-free use of ES6 and SASS while creating a static website/app.
 
-## Features
+I took the PNG icon image and transformed them to SVG files using Adobe Illustrator which is nice because you can divide your icon for example into a variety of pieces which you can later animate using CSS or JavaScript. 
 
-- Dev-server to aid development by automatically refreshing the browser whenever an edit is made to any of the source files.
-- Build script that:
-  - Converts all ES6 to browser friendly ES5.
-  - Converts SASS to CSS and adds vendor prefixes to CSS rules.
-  - Minifies, concatenates, and bundles all JavaScript and CSS files.
-  - Compresses images.
+<br> 
+I did animate one of the icons kind of as my way to leave a little “easter egg”. With more time I would’ve definitely added more SVG animations to it. 
+
+<br> Hope you like my page! 
+
 
 # Installation
 
 The only development dependency of this project is [Node.js](https://nodejs.org). Once Node is installed:
 
 ```
-git clone https://github.com/mdziedzic/build-boilerplate-static-es6-sass.git
-cd build-boilerplate-static-es6-sass
+git clone 'https://github.com/gabyhernan/landing-page-test.git'
+cd landing page test 
 npm install
+npm start or yarn run start   - will start the server at http://localhost:8080 
 ```
 
 # Usage
