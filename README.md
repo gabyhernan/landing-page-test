@@ -1,10 +1,13 @@
-# Test Landing Page 
 
-I Used a boilerplate in order to be able to a SCSS & ES6 compiler  building a static app/website with ES6 and SASS.
+# Gaby Hernandez Test Landing Page 
 
+Used a boilerplate in order to be able to a SCSS & ES6 compiler  building a static app/website with ES6 and SASS.
+<br> 
 This project was created to enable the easy, setup-free use of ES6 and SASS while creating a static website/app.
+<br> 
 
-I took the PNG icon image and transformed them to SVG files using Adobe Illustrator which is nice because you can divide your icon for example into a variety of pieces which you can later animate using CSS or JavaScript. 
+I took the PNG icons and transformed to SVG files which is nice because you can divide your icon for example into a variety of pieces which you can later animate using CSS or JavaScript. 
+
 
 <br> 
 I did animate one of the icons kind of as my way to leave a little “easter egg”. With more time I would’ve definitely added more SVG animations to it. 
@@ -23,8 +26,15 @@ npm install
 npm start or yarn run start   - will start the server at http://localhost:8080 
 ```
 
-# Usage
 
+# Usage
+In order to view the project locally you must have Node installed. 
+
+Once you are in the directory of the project in your terminal 
+    ## git clone 'https://github.com/gabyhernan/landing-page-test.git'
+    ## "npm install"
+    ## then "npm start or yarn run start"
+    ## you should now be able to see the app at http://localhost:8080
 ## Development
 
 Sample files are included in `source`. These files are meant to be replaced. The only constraint is that there must be a `source/index.js` file. Place all other files  inside `source` (nested sub-directories allowed).
@@ -41,16 +51,11 @@ Sample files are included in `source`. These files are meant to be replaced. The
 
 This project uses Webpack which relies on a dependency graph. What this means as far as this project is concerned is that all JavaScript, SASS, and CSS files must be imported in `index.js` (or in files that can be accessed via `index.js`). See the sample included with the project at `source/index.js` for an example of how to do this.
 
-## HTML and images
-
-Nothing special needs to be done to HTML and image files apart from placing them somewhere in `source`.
 
 ## Image Compression
 
 The build script losslessly compresses the images. To disable image compression when running `npm run build`, simply remove the `--compress` flag in the `postbuild` script in `package.json`.
 
-## Fonts
-To use a font from a CDN (like Google Fonts), place the `<link>` in the `<header>` of each HTML page that requires the font. Local fonts that are included in `source` but are not referenced by a SCSS/CSS/JavaScript file will not be included in the build.
 
 ## jQuery
 To use jQuery, first install it as a dependency: `npm install --save jquery`. Then include `import $ from 'jquery';` at the top every JavaScript file that uses jQuery.
